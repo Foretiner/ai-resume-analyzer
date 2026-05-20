@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 @RestController
-@CrossOrigin(origins = "https://ai-resume-analyzer-three-iota.vercel.app/")
+@CrossOrigin(origins = "*")
 @RequestMapping("/api/resume")
 public class ResumeController {
 
