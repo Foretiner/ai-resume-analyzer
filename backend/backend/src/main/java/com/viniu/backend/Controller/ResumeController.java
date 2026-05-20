@@ -25,9 +25,9 @@ public class ResumeController {
             return ResponseEntity.ok(result);
 
         } catch (Exception e) {
-
+            e.printStackTrace();
             return ResponseEntity.badRequest()
-                    .body("Error analyzing resume");
+                    .body("ERROR: "+ e.getMessage());
         }
     }
 }
