@@ -16,7 +16,7 @@ export default function App() {
 
     try {
       const response = await fetch(
-        "http://ai-resume-analyzer-production-793c.up.railway.app",
+        "http://ai-resume-analyzer-production-793c.up.railway.app/api/resume/upload",
         {
           method: "POST",
           body: formData,
