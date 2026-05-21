@@ -16,7 +16,7 @@ export default function App() {
 
     try {
       const response = await fetch(
-        "https://ai-resume-analyzer-66fg.onrender.com/upload",
+        "https://ai-resume-analyzer-66fg.onrender.com/api/resume/upload",
         {
           method: "POST",
           body: formData,
