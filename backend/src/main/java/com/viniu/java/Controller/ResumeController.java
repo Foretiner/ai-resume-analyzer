@@ -1,6 +1,6 @@
-package com.viniu.backend.Controller;
+package com.viniu.java.Controller;
 
-import com.viniu.backend.service.ResumeService;
+import com.viniu.java.service.ResumeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

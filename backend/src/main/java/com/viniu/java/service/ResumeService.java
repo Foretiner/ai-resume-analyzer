@@ -1,4 +1,4 @@
-package com.viniu.backend.service;
+package com.viniu.java.service;
 
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
