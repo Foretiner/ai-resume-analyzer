@@ -8,7 +8,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 @CrossOrigin(origins = "*")
-@RequestMapping("/api/resume")
+@RequestMapping("/api/resume/upload")
 public class ResumeController {
 
     @Autowired
